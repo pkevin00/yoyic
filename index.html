@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YoyiC & Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f22744389.js" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="script.js"> </script>
+    <script type="text/javascript" src="clock.js">
+
+    </script>
+
+    <script defer src="counter.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+    <!-- MENU ATAS -->
+
+        <div class="uppermenu">
+          <table class="tg">
+            <thead>
+              <tr class="kolommusiktanggal">
+                <td class="kolom1"><p id="yoga">Hi Yoga!</p></td>
+<!-- IDEA: JAMMMM -->
+                <td class="kolom2"><div id="digital-clock"></div>
+                <script src="clock.js"></script></td>
+<!-- IDEA: MUSICCCCC -->
+                <td class="songtitle">
+                <div class="rightJS li"><div><p id="musictitle">Loomboy & Kumira - No Problem!</p></div></div>
+                </td>
+                <td class="kolom3"> <audio id="control" src="music.mp3">
+
+                </audio>
+                <div>
+            <i id="play" class="fa-solid fa-play" onclick="document.getElementById('control').play()" ></i>
+            <i id="pause" class="fa-solid fa-pause" onclick="document.getElementById('control').pause()"></i>
+                </div>
+              </tr>
+            </thead>
+          </table>
+        </div>
+
+<!-- IDEA: SPACER -->
+
+<div class="spacer1">
+
+</div>
+
+<!-- IDEA: MAIN CLUSTERRRRRRRRRRRRRR -->
+<div class="maincluster">
+
+
+<table class="tg2">
+<thead>
+  <tr class="rowcluster1">
+    <td class="distancecell"><i id="mapicon" class="fa-solid fa-map"></i>
+      <p id="distancetxt">41 Kilometers Away</p>
+    <p id="distancetxt">683.333 McNuggets Away</p>
+  </td>
+
+    <td class="documentcell">
+      <i id="docicon" class="fa-solid fa-file"></i>
+        <p id="documenttxt">Documents :</p>
+        <a id="doclink" href="pieceofheaven.pdf">piece of heaven.pdf</a>
+
+
+    </td>
+    <td class="gallerycell" rowspan="2">
+      <a href="gallery.html"><p id="gallerytxt">Gallery</p></a>
+      <img id="pfppx" src="px2.png" alt="">
+
+    </td>
+  </tr>
+
+
+
+
+  <tr class="rowcluster2">
+    <td class="calendarcell">
+      <i id="calicon" class="fa-solid fa-calendar"></i>
+        <p id="nextevent">Next Event :</p>
+      <p id="event">Bandung Trip</p>
+
+    </td>
+
+<!-- IDEA: DAYSS TOGETHER COUNTER -->
+
+
+    <td class="daycell">
+
+      <div id="days_elapsed">
+              <p>Together: <br> <span></span> </p>
+          </div>
+          <div id="event_day">
+              <p>Since: <br> <span></span></p>
+          </div>
+
+          <div id="current_day">
+              <p>Today: <br> <span></span></p>
+          </div>
+
+
+          <!-- quotes -->
+          <br>
+          <div id="quotes">
+              <p id="quotespan"><span></span></p>
+              <button>Click for a surprise</button>
+          </div>
+
+
+
+
+
+
+
+    </td>
+
+
+
+<!-- IDEA: DAYSS TOGETHER COUNTER -->
+  </tr>
+</thead>
+</table>
+
+</div>
+
+
+  </body>
+</html>

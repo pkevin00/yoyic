@@ -1,0 +1,383 @@
+@font-face {
+  font-family: 'ndot47';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff') format('woff'), /* Modern Browsers */
+       url('ndot47.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+  background-color: #E6DDFE;
+}
+
+.uppermenu {
+  text-align: center;
+  width: 100%;
+}
+
+.tg {
+  border-spacing: 0;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  width: inherit;
+}
+
+.kolom1 {
+  border: solid;
+  background-color: #927ABA;
+  border-color: #ffffff;
+  border-width: 5px 3px 3px 5px;
+  line-height: 1;
+  width: 20%;
+  text-align: center;
+
+}
+
+.kolom2 {
+  border: solid;
+  background-color: #927ABA;
+  border-color: #ffffff;
+  border-width: 5px 3px 3px 0;
+  width: 20%;
+}
+
+
+.kolom3 {
+
+  background-color: #ffffff;
+  text-align: center;
+  width: 10%;
+}
+
+.songtitle {
+  border: solid;
+  border-color: #ffffff;
+  border-width: 5px 3px 3px 0;
+
+  margin-left: 50px;
+  line-height: 1;
+  width: 30%;
+  overflow: hidden;
+  background-color: #927ABA;
+
+}
+
+#musictitle {
+  font-family: 'ndot47';
+  color: #ffffff;
+  white-space: nowrap;
+  clear: both;
+  float: left;
+}
+
+
+#control {
+  background-color: #927ABA;
+  height: 64px;
+}
+
+
+#yoga {
+  margin: 0;
+  font-size: 19pt;
+  font-family: 'Space Mono';
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#digital-clock {
+  font-family: 'Space Mono';
+  font-size: 11pt;
+  color: #ffffff;
+}
+
+.spacer1 {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+
+.spacer2 {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+
+
+/* MAIN CLUSTER */
+
+.maincluster {
+  width: 100%;
+  text-align:center;
+}
+
+.tg2 {
+  border-spacing: 0;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: inherit;
+}
+
+.distancecell {
+  border: solid;
+  border-width: 5px 3px 3px 5px ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 30%;
+  text-align: center;
+}
+
+.documentcell {
+  border: solid;
+  border-width: 5px 3px 3px 0 ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 30%;
+  text-align: center;
+
+}
+
+.gallerycell {
+  border: solid;
+  border-width: 5px 5px 5px 0 ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 40%;
+  text-align: center;
+
+}
+
+.calendarcell {
+  border: solid;
+  border-width: 0 3px 5px 5px ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 30%;
+  text-align: center;
+}
+
+
+
+#mapicon {
+  color: #ffffff;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+
+#play {
+
+  padding-right: 15px;
+}
+
+#pause {
+
+  padding-left: 15px;
+}
+
+#distancetxt {
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Space Mono';
+  font-size: 12pt;
+
+}
+
+.daycell {
+  background-color: #927ABA;
+  border: solid;
+  border-width: 0 3px 5px 0;
+  border-color: #ffffff;
+  width: 30%;
+}
+
+#calicon {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+#nextevent {
+  font-family: 'Space Mono';
+  font-size: 14pt;
+  color: #ffffff;
+  margin-bottom: 0;
+
+}
+
+#event {
+  font-family: 'Space Mono';
+  font-weight: bold;
+  font-size: 18pt;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#docicon {
+  font-size: 2em;
+  color: #ffffff;
+
+}
+
+#doclink {
+  font-family: 'Space Mono';
+  color: #ffffff;
+}
+
+#documenttxt {
+  font-family: 'Space Mono';
+  font-weight: bold;
+  color: #ffffff;
+  font-size:
+
+}
+
+#pfppx {
+
+}
+
+#pfppx2 {
+  width: 50%;
+}
+
+#gallerytxt{
+  font-family: 'Space Mono';
+  font-size: 18pt;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* CSS COUNTER */
+
+:root{
+    --primary-background-color:pink;
+}
+
+/*  dynamic day elapsed shower  */
+#days_elapsed p,
+#event_day p,
+#current_day p{
+    color:#ffffff;
+    z-index: 100;
+    font-family: 'Space Mono';
+    margin-bottom: 0;
+
+}
+
+#days_elapsed span,
+#event_day span,
+#current_day span{
+    color:#ffffff;
+    z-index: 100;
+}
+
+
+/* quotes styling */
+#quotes{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quotes>p{
+    position: absolute;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    display: none;
+    font-family: 'Space Mono';
+    /* margin-top: 3rem; */
+    color: plum;
+    margin-top: 0;
+}
+
+#quotes span{
+    color: #ffffff;
+}
+button {
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: #E6DDFE ;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    font-family: 'ndot47';
+    color: #927ABA;
+}
+
+
+button:active{
+    background-color: #E6DDFE ;
+
+}
+
+@media (max-width:500px){
+    button:active{
+        background-color: hsl(340, 70%, 50%);
+    }
+}
+
+
+
+/* GALLERY PAGE STYLING */
+
+.gallery1 {
+  border: solid;
+  border-width: 5px 3px 3px 5px ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 25%;
+  text-align: center;
+}
+
+.gallery2 {
+  border: solid;
+  border-width: 5px 3px 3px 0 ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 25%;
+  text-align: center;
+
+}
+
+.gallery3 {
+  border: solid;
+  border-width: 5px 3px 5px 0 ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 25%;
+  text-align: center;
+
+}
+
+.gallery4 {
+  border: solid;
+  border-width: 5px 5px 5px 0 ;
+  border-color: #ffffff;
+  background-color: #927ABA;
+  width: 25%;
+  text-align: center;
+
+}
+
+#backtohome {
+  font-family: 'Space Mono';
+  color: #927ABA;
+  font-weight: bold;
+
+}
